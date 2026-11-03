@@ -1,0 +1,44 @@
+[[bar.layout]]
+monitor = "*"
+show = true
+right = [
+    { name = "Sound", modules = [
+    "bluetooth",
+    "volume",
+    "microphone",
+    "network",
+] },
+    "separator",
+    { name = "Clock", modules = [
+    "notifications",
+    "clock",
+] },
+]
+
+[[bar.layout.left]]
+name = "System"
+modules = [
+    "dashboard",
+    "hyprland-workspaces",
+]
+
+[[bar.layout.left]]
+name = "Utilization"
+modules = [
+    "weather",
+    "media",
+    "brightness",
+    "battery",
+]
+
+[[bar.layout.center]]
+name = "General"
+modules = ["window-title"]
+
+[modules.battery]
+icon-bg-color = "#5240bf"
+label-color = "#ffffff"
+
+[modules.brightness]
+icon-bg-color = "#7540bf"
+label-color = "#ffffff"
