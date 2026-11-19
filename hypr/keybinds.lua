@@ -8,7 +8,7 @@ local thirdMod = "CTRL"
 
 -- Example binds, see https://wiki.hypr.land/Configuring/Basics/Binds/ for more
 hl.bind(mainMod .. " + T", hl.dsp.exec_cmd("wezterm"))
-hl.bind(mainMod .. " + E", hl.dsp.exec_cmd("dolphin"))
+hl.bind(mainMod .. " + E", hl.dsp.exec_cmd("QSG_RENDER_LOOP=basic index"))
 hl.bind(secMod .. " + V", hl.dsp.exec_cmd("vscodium"))
 hl.bind(secMod .. " + B", hl.dsp.exec_cmd("librewolf"))
 hl.bind(secMod .. " + D", hl.dsp.exec_cmd("discord"))

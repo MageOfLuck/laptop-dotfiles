@@ -63,4 +63,4 @@ style = "bold fg:red bg:surface"
 [username]
 show_always = true
 style_user = "bold #7f82ee"
-format = "[MageOfLuck]($style)[ in ](time)"
+format = "[$user]($style)[ in ](time)"

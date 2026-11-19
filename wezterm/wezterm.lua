@@ -8,9 +8,12 @@ config.font = wezterm.font_with_fallback {
 }
 config.font_size = 12.0
 -- Colors
-config.color_scheme = 'Catppuccin Mocha'
+config.color_scheme_dirs = {
+    wezterm.config_dir .. "/colors"
+}
+config.color_scheme = 'Amethyst Tide'
 -- Window
-config.window_background_opacity = 0.9
+config.window_background_opacity = 0.4
 config.window_padding = {
   left = 10,
   right = 10,
